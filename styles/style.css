@@ -55,6 +55,13 @@
   text-underline-offset: 4px;
 }
 
+
+img {
+  width: 100%;
+  width: 148px;
+  height: 105px;
+}
+
 .cover {
   width: 100%;
   min-height: 757px;
@@ -157,7 +164,7 @@
 
 .lots {
   padding: 179px 24px 146px 24px;
-  min-height: 56px;
+  min-height: 563px;
 }
 
 .lots__heading {
