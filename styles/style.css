@@ -22,7 +22,6 @@
 }
 
 .header__links-list-item_no-bullit {
-  margin-left: -3px;
   list-style-type: none;
 }
 
@@ -161,10 +160,8 @@ img {
   word-spacing: 20px;
 }
 
-
 .lots {
   padding: 179px 24px 146px 24px;
-  min-height: 563px;
 }
 
 .lots__heading {
@@ -186,6 +183,7 @@ img {
 .lots__card-list-item {
   flex-grow: 1;
   max-width: 334px;
+  min-height: 563px;
 }
 
 .card_type_film {
@@ -216,10 +214,6 @@ img {
   flex-direction: column;
   justify-content: space-between;
   padding: 51px 40px 48px;
-
-  width: 100%;
-  height: 100%;
-
   background-repeat: no-repeat;
   background-position: -106px center;
   background-size: cover;
@@ -299,10 +293,12 @@ img {
   font-weight: normal;
   font-size: 20px;
   line-height: 24px;
+
+  margin-bottom: 24px;
 }
 
-.paragraph-indent {
-  margin-bottom: 1.2em;
+.about__text-paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .footer {
@@ -364,4 +360,3 @@ img {
   width: 48px;
   height: 48px;
 }
-/* / */
